@@ -40,3 +40,9 @@
     "eyeColor":"green",
     "favoriteFruit":{"$ne":"orange"}
  });
+
+ /** get data of a specific date:  */
+ 
+ var_gt_date = db.getCollection('persons').find({
+    "registered":{"$gt":ISODate("2016-08-20T04:43:18.000Z")}
+ });
