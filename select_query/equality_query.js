@@ -12,4 +12,4 @@ get_json_by_name = db.getCollection('collection_name').find({name:"Aurelia Gonza
 
 /** Applying And in Query */
 get_json_gender_female_and_eye_color_green = db.getCollection('persons').
-                                            find({gender:"female",eyeColor:"green"});
+find({gender:"female",eyeColor:"green"});
