@@ -37,34 +37,34 @@ Key Features of MongoDB</p>
     
 <h2>MongoDB Terminology</h2>
     
-<h3>Database</h3>
+<h3><u>Database</u></h3>
     <p>A MongoDB database is used to store and manage a set of collections. It consists of various collections, indexes, and other essential data structures required to store the data efficiently.</p>
     
-<h3>Collection</h3>
+<h3><u>Collection</u></h3>
     <p>A collection in MongoDB is a group of documents. The name of a collection must be unique within its database. Collections can be viewed as the table equivalencies in a relational database.</p>
     
-<h3>Document</h3>
+<h3><u>Document</u></h3>
     <p>A document is a record in a MongoDB collection. It is comprised of a set of fields, similar to a row in a relational database. However, unlike tables in a relational database, no schema or specific structure is enforced on the documents within a collection.</p>
     
- <h3>Field</h3>
+ <h3><u>Field</u></h3>
     <p>A field in MongoDB is a key-value pair inside a document. It can store various types of data, including strings, numbers, arrays, and other documents. Fields in MongoDB can be seen as columns in a relational database.</p>
     
-<h3>Index</h3>
+<h3><u>Index</u></h3>
     <p>Indexes in MongoDB are data structures that improve the speed of common search operations. They store a small portion of the dataset in a well-organized structure. This structure allows MongoDB to search and sort documents faster by reducing the number of documents it has to scan.</p>
     
-<h3>Query</h3>
+<h3><u>Query</u></h3>
     <p>A query in MongoDB is used to retrieve data from the database. It retrieves specific documents or subsets of documents from a collection based on a given condition.</p>
     
-<h3>Cursor</h3>
+<h3><u>Cursor</u></h3>
     <p>A cursor is a pointer to the result set of a query. It allows developers to process individual documents from the result set in an efficient manner.</p>
     
-<h3>Aggregation</h3>
+<h3><u>Aggregation</u></h3>
     <p>Aggregation in MongoDB is the process of summarizing and transforming the data stored in collections. It is used to run complex analytical operations on the dataset or create summary reports.</p>
     
-<h3>Replica Set</h3>
+<h3><u>Replica Set</u></h3>
     <p>A replica set in MongoDB is a group of MongoDB instances that maintain the same data set. It provides redundancy, high availability, and automatic failover in case the primary node becomes unreachable.</p>
     
-<h3>Sharding</h3>
+<h3><u>Sharding</u></h3>
     <p>Sharding is a method of distributing data across multiple machines. It is used in MongoDB to horizontally scale the database by partitioning the dataset into smaller, more manageable chunks called shards.
 </p>
 
