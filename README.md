@@ -17,13 +17,13 @@ Key Features of MongoDB</p>
 
 <p> MongoDB is a suitable choice for various applications, including:</p>
 
-    <ul>
+<ul>
         <li>Big Data: MongoDB’s flexible data model and horizontal scalability make it a great fit for managing large volumes of unstructured or semi-structured data.</li>
         <li>Real-time analytics: MongoDB’s aggregation framework and indexing capabilities help analyze and process data in real-time.</li>
         <li> Content management: With its dynamic schema, MongoDB can handle diverse content types, making it a suitable choice for content management systems.</li>
         <li>Internet of Things (IoT) applications: MongoDB can capture and store data from a large number of devices and sensors, proving beneficial in IoT scenarios. </li>
         <li>Mobile applications: MongoDB provides a flexible data model, which is an essential requirement for the dynamic nature and varying data types of mobile applications. </li>
-    </ul>
+</ul>
     
 
     
