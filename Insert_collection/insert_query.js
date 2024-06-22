@@ -1,0 +1,1 @@
+var insert_query = db.persons.insertMany()

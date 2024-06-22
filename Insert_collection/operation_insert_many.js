@@ -1,5 +1,5 @@
-db.persons.insertMany(
-[
+
+var persons = [
     {
       "index": NumberInt(0),
       "name": "Aurelia Gonzales",
@@ -24557,4 +24557,4 @@ db.persons.insertMany(
       ]
     }
   ]
-)
+//)
