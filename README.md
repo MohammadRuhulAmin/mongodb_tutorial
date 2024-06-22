@@ -83,6 +83,10 @@ Key Features of MongoDB</p>
 <tr>
 <td>02</td><td>Create a Collection </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/tree/main/create_collections">implicit and explicit collection</a></td>
 </tr>
+<tr>
+<td>03</td><td>Delete a Collection </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/tree/main/create_collections"></a></td>
+</tr>
+
 </thead>
 </table>
 </div>
