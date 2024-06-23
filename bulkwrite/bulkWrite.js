@@ -40,7 +40,7 @@ orderedBulk.execute((err, result) => {
 
 /**Unordered Bulk Write: */
 
-const unorderedBulk = db.collection('mycollection').initializeUnorderedBulkOp();
+const unorderedBulk = db.collection('users').initializeUnorderedBulkOp();
 unorderedBulk.insert({ _id: 1, name: 'John Doe' });
 unorderedBulk.find({ _id: 2 }).updateOne({ $set: { name: 'Jane Doe' } });
 unorderedBulk.find({ _id: 3 }).remove();
