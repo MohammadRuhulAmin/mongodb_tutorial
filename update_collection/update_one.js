@@ -11,7 +11,7 @@
  */
 
    /**Example:1 */
-    db.collection.updateOne({ name: 'John Doe' }, { $set: { age: 30 } });
+    db.collection('users').updateOne({ name: 'John Doe' }, { $set: { age: 30 } });
    /**Example:2 */
     db.users.updateOne(
       { user_id: 123 }, // Filter: find the document with user_id 123
@@ -25,7 +25,7 @@
     );
     
     /**Example:3 */
-    db.users.updateOne(
+    db.collection('users').updateOne(
       { name: "Jane Doe" }, // Filter: find the document with name "Jane Doe"
       { 
         $set: { 
@@ -47,4 +47,3 @@
      */
 
 
-      

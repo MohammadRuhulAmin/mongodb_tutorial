@@ -1,7 +1,7 @@
 /**
  * 
  * Update operators are: 
- * $set
+ * $set:
  * $unset:
  * $inc:
  * $push:
@@ -12,7 +12,7 @@
 /**
  * $set: To update the value of a field
  */
-db.collection.updateOne(
+db.collection('users').updateOne(
     {name:"jone doe"},
     {$set:{age:30}},
     {upsert:false}
@@ -23,7 +23,7 @@ db.collection.updateOne(
  * 
  */
 
-db.collection.updateOne(
+db.collection('users').updateOne(
     {name:"ruhul"},
     {$inc:{views:1}}
 );
@@ -32,7 +32,7 @@ db.collection.updateOne(
  * $push: to add new item in the array field
  */
 
-db.collection.updateOne(
+db.collection('users').updateOne(
     {name:"rx"},
     {$push:{$tag:'mongoDB'}}
 );
