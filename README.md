@@ -108,6 +108,13 @@ Key Features of MongoDB</p>
 </td>
 </tr>
 
+<tr>
+<td>2.2.2</td>
+<td>Update Operators</td>
+<td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/update_collection/update_operators.js">
+$set,$unset,$inc,$push,$pull</a></td>
+</tr>
+
 
 <tr>
 <td>2.3</td><td>Delete a Collection </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/drop_collections/dc.js"> collection_name.drop()</a></td>
