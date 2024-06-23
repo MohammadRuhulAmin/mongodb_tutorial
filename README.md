@@ -73,6 +73,7 @@ Key Features of MongoDB</p>
 </div>
 
 <div>
+<h2>Study Topics</h2>
 <table>
 <thead>
 <tr><th>#SL</th>
