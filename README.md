@@ -75,7 +75,7 @@ Key Features of MongoDB</p>
 <thead>
 <tr><th>#SL</th>
 <th>Topic Name</th>
-<th>Resource Link</th>
+<th>Methods </th>
 </tr>
 <tr>
 <td>1.0</td><td>Introduction with MongoDB</td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/tree/main">Introductio with MongoDB</a></td>
@@ -83,8 +83,14 @@ Key Features of MongoDB</p>
 <tr>
 <td>2.0</td><td>Create a Collection </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/tree/main/create_collections">implicit and explicit collection</a></td>
 </tr>
+
 <tr>
-<td>2.1</td><td>Delete a Collection </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/drop_collections/dc.js"> collection_name.drop()</a></td>
+<td>2.1</td><td>Create a Collection with necessary constraints </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/create_collections/add_constraints.js">validator, $jsonSchema</a></td>
+</tr>
+
+
+<tr>
+<td>2.2</td><td>Delete a Collection </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/drop_collections/dc.js"> collection_name.drop()</a></td>
 </tr>
 
 </thead>
