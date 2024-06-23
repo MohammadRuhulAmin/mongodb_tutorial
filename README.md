@@ -88,6 +88,11 @@ Key Features of MongoDB</p>
 <td>2.1</td><td>Create a Collection with necessary constraints </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/create_collections/add_constraints.js">validator, $jsonSchema</a></td>
 </tr>
 
+<tr>
+<td>2.1.1</td><td> Insert data </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/create_collections/add_constraints.js">insertOne(), insertMany()</a></td>
+</tr>
+
+
 
 <tr>
 <td>2.2</td><td>Delete a Collection </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/drop_collections/dc.js"> collection_name.drop()</a></td>
