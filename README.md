@@ -47,15 +47,57 @@ This section of the guide will introduce you to the basic terminology used while
 
 ## Study Topics
 
-| #SL  | Topic Name                                | Methods                                                                                          |
-|------|-------------------------------------------|--------------------------------------------------------------------------------------------------|
-| 1.0  | Introduction with MongoDB                 | [Introduction with MongoDB](https://github.com/MohammadRuhulAmin/mongodb_tutorial/tree/main)      |
-| 2.0  | Create a Collection                       | [implicit, explicit collection](https://github.com/MohammadRuhulAmin/mongodb_tutorial/tree/main/create_collections) |
-| 2.1  | Create a Collection with necessary constraints | [validator(), $jsonSchema()](https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/create_collections/add_constraints.js) |
-| 2.1.1| Insert data                               | [insertOne(), insertMany()](https://github.com/MohammadRuhulAmin/mongodb_tutorial/tree/main/managing_record) |
-| 2.2.1| Update a Document                         | [updateOne()](https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/update_record/update_one.js) |
-| 2.2.2| Update Operators                          | [$set,$unset,$inc,$push,$pull](https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/update_record/update_operators.js) |
-| 2.3  | Delete a Collection                       | [collection_name.drop()](https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/drop_collections/dc.js) |
+<div>
+<h2>Study Topics</h2>
+<table>
+<thead>
+<tr><th>#SL</th>
+<th>Topic Name</th>
+<th>Methods </th>
+</tr>
+<tr>
+<td>1.0</td><td>Introduction with MongoDB</td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/tree/main">Introductio with MongoDB</a></td>
+</tr>
+<tr>
+<td>2.0</td><td>Create a Collection </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/tree/main/create_collections">implicit, explicit collection</a></td>
+</tr>
+
+<tr>
+<td>2.1</td><td>Create a Collection with necessary constraints </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/create_collections/add_constraints.js">validator(), $jsonSchema()</a></td>
+</tr>
+
+<tr>
+<td>2.1.1</td><td> Insert data </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/tree/main/managing_record">insertOne(), insertMany()</a></td>
+</tr>
+
+<tr>
+<td>2.2.1</td>
+<td>Update a Document</td>
+<td>
+<a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/update_record/update_one.js">updateOne()
+</td>
+</tr>
+
+<tr>
+<td>2.2.2</td>
+<td>Update Operators</td>
+<td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/update_record/update_operators.js">
+$set,$unset,$inc,$push,$pull</a></td>
+</tr>
+
+
+<tr>
+<td>2.3</td><td>Delete a Collection </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/drop_collections/dc.js"> collection_name.drop()</a></td>
+</tr>
+
+
+
+</thead>
+</table>
+</div>
+
+
+
 
 ## Resources:
 
