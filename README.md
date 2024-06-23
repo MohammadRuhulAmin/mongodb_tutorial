@@ -1,18 +1,9 @@
-<div >
-<h1>mongoDB</h1>
-
-<table>
-<tr>
-    <td>
- <!-- <img src="./public/readme_images/mongodb_image.png" width="300" height="200"> -->
-</td>
-    <td><img src="./public/readme_images/mongo_db_img_2.jpg" width="300" height="600"><br> </td>
-</tr>
-</table>
-<sub>an open source NoSQL database management program.</sub>
-</div>
 
 <div>
+    <img src="./public/readme_images/mongodb_image.png"><br>
+    <sub>an open source NoSQL database management program.</sub>
+</div>
+<div> 
 <h2>What is MongoDB ? </h2>
 
 <p>MongoDB is an open-source, document-based, and cross-platform NoSQL database that offers high performance, high availability, and easy scalability. It differs from traditional relational databases by utilizing a flexible, schema-less data model built on top of BSON (Binary JSON), allowing for non-structured data to be easily stored and queried.
