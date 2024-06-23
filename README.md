@@ -1,5 +1,5 @@
 <div>
-<h1>What is MongoDB: </h1>
+<h2>What is MongoDB ? </h2>
 
 <p>MongoDB is an open-source, document-based, and cross-platform NoSQL database that offers high performance, high availability, and easy scalability. It differs from traditional relational databases by utilizing a flexible, schema-less data model built on top of BSON (Binary JSON), allowing for non-structured data to be easily stored and queried.
 Key Features of MongoDB</p>
@@ -16,7 +16,7 @@ Key Features of MongoDB</p>
 </div>
        
 <div>
-    <h1>When to use MongoDB: </h1>
+    <h2>When to use MongoDB ? </h2>
     <p> MongoDB is a suitable choice for various applications, including:</p>
 
    <ul>
@@ -32,41 +32,43 @@ Key Features of MongoDB</p>
 <b>In conclusion, MongoDB is a powerful and versatile NoSQL database that can efficiently handle unstructured and semi-structured data, making it an excellent choice for various applications and industries.</b>
 
 <div>
-<h1>MongoDB Terminology</h1>
+<h2>MongoDB Terminology</h2>
     <p>This section of the guide will introduce you to the basic terminology used while working with MongoDB. Understanding these terms will help you to grasp the fundamentals of MongoDB and make it easier for you to follow along with the rest of the guide.</p>
     
 <h2>MongoDB Terminology</h2>
-    
-<h3><u>Database</u></h3>
-    <p>A MongoDB database is used to store and manage a set of collections. It consists of various collections, indexes, and other essential data structures required to store the data efficiently.</p>
-    
-<h3><u>Collection</u></h3>
-    <p>A collection in MongoDB is a group of documents. The name of a collection must be unique within its database. Collections can be viewed as the table equivalencies in a relational database.</p>
-    
-<h3><u>Document</u></h3>
-    <p>A document is a record in a MongoDB collection. It is comprised of a set of fields, similar to a row in a relational database. However, unlike tables in a relational database, no schema or specific structure is enforced on the documents within a collection.</p>
-    
- <h3><u>Field</u></h3>
-    <p>A field in MongoDB is a key-value pair inside a document. It can store various types of data, including strings, numbers, arrays, and other documents. Fields in MongoDB can be seen as columns in a relational database.</p>
-    
-<h3><u>Index</u></h3>
-    <p>Indexes in MongoDB are data structures that improve the speed of common search operations. They store a small portion of the dataset in a well-organized structure. This structure allows MongoDB to search and sort documents faster by reducing the number of documents it has to scan.</p>
-    
-<h3><u>Query</u></h3>
-    <p>A query in MongoDB is used to retrieve data from the database. It retrieves specific documents or subsets of documents from a collection based on a given condition.</p>
-    
-<h3><u>Cursor</u></h3>
-    <p>A cursor is a pointer to the result set of a query. It allows developers to process individual documents from the result set in an efficient manner.</p>
-    
-<h3><u>Aggregation</u></h3>
-    <p>Aggregation in MongoDB is the process of summarizing and transforming the data stored in collections. It is used to run complex analytical operations on the dataset or create summary reports.</p>
-    
-<h3><u>Replica Set</u></h3>
-    <p>A replica set in MongoDB is a group of MongoDB instances that maintain the same data set. It provides redundancy, high availability, and automatic failover in case the primary node becomes unreachable.</p>
-    
-<h3><u>Sharding</u></h3>
-    <p>Sharding is a method of distributing data across multiple machines. It is used in MongoDB to horizontally scale the database by partitioning the dataset into smaller, more manageable chunks called shards.
-</p>
+<table>
+<tr>
+<td><u>Database</u></td><td><p>A MongoDB database is used to store and manage a set of collections. It consists of various collections, indexes, and other essential data structures required to store the data efficiently.</p></td>
+</tr>
+<tr>
+<td><u>Collection</u></td><td><p>A collection in MongoDB is a group of documents. The name of a collection must be unique within its database. Collections can be viewed as the table equivalencies in a relational database.</p></td>
+</tr>
+<tr>
+<td><u>Document</u></td><td><p>A document is a record in a MongoDB collection. It is comprised of a set of fields, similar to a row in a relational database. However, unlike tables in a relational database, no schema or specific structure is enforced on the documents within a collection.</p></td>
+</tr>
+<tr>
+<td><u>Field</u></td><td><p>A field in MongoDB is a key-value pair inside a document. It can store various types of data, including strings, numbers, arrays, and other documents. Fields in MongoDB can be seen as columns in a relational database.</p></td>
+</tr>
+<tr>
+<td><u>Index</u></td><td> <p>Indexes in MongoDB are data structures that improve the speed of common search operations. They store a small portion of the dataset in a well-organized structure. This structure allows MongoDB to search and sort documents faster by reducing the number of documents it has to scan.</p></td>
+</tr>
+<tr>
+<td><u>Query, MongoDB Query Language (MQL)</u></td><td>  <p>A query in MongoDB is used to retrieve data from the database. It retrieves specific documents or subsets of documents from a collection based on a given condition.</p>
+</td>
+</tr>
+<tr>
+<td><u>Cursor</u></td><td> <p>A cursor is a pointer to the result set of a query. It allows developers to process individual documents from the result set in an efficient manner.</p></td>
+</tr>
+<tr>
+<td><u>Aggregation</u></td><td><p>Aggregation in MongoDB is the process of summarizing and transforming the data stored in collections. It is used to run complex analytical operations on the dataset or create summary reports.</p></td>
+</tr>
+<tr>
+<td><u>Replica Set</u></td><td><p>A replica set in MongoDB is a group of MongoDB instances that maintain the same data set. It provides redundancy, high availability, and automatic failover in case the primary node becomes unreachable.</p></td>
+</tr>
+<tr>
+<td><u>Sharding</u></td><td> <p>Sharding is a method of distributing data across multiple machines. It is used in MongoDB to horizontally scale the database by partitioning the dataset into smaller, more manageable chunks called shards.</p></td>
+</tr>
+</table>
 
 </div>
 
@@ -81,11 +83,11 @@ Key Features of MongoDB</p>
 <td>1.0</td><td>Introduction with MongoDB</td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/tree/main">Introductio with MongoDB</a></td>
 </tr>
 <tr>
-<td>2.0</td><td>Create a Collection </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/tree/main/create_collections">implicit and explicit collection</a></td>
+<td>2.0</td><td>Create a Collection </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/tree/main/create_collections">implicit, explicit collection</a></td>
 </tr>
 
 <tr>
-<td>2.1</td><td>Create a Collection with necessary constraints </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/create_collections/add_constraints.js">validator, $jsonSchema</a></td>
+<td>2.1</td><td>Create a Collection with necessary constraints </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/create_collections/add_constraints.js">validator(), $jsonSchema()</a></td>
 </tr>
 
 <tr>
