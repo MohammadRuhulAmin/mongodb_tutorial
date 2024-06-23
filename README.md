@@ -95,12 +95,6 @@ Key Features of MongoDB</p>
 <td>2.1.1</td><td> Insert data </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/tree/main/managing_collections">insertOne(), insertMany()</a></td>
 </tr>
 
-
-
-<tr>
-<td>2.2</td><td>Delete a Collection </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/drop_collections/dc.js"> collection_name.drop()</a></td>
-</tr>
-
 <tr>
 <td>2.2.1</td>
 <td>Update a Document</td>
@@ -108,6 +102,13 @@ Key Features of MongoDB</p>
 <a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/update_collection/update_one.js">updateOne()
 </td>
 </tr>
+
+
+<tr>
+<td>2.3</td><td>Delete a Collection </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/drop_collections/dc.js"> collection_name.drop()</a></td>
+</tr>
+
+
 
 </thead>
 </table>
