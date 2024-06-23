@@ -104,3 +104,9 @@ Key Features of MongoDB</p>
 </thead>
 </table>
 </div>
+
+<div>
+<b>Resources: </b>
+<span>https://www.knowi.com/blog/the-best-introduction-to-mongodb-query-language-mql/</span>
+<span>https://roadmap.sh/mongodb</span>
+</div>
