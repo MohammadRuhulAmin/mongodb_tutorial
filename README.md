@@ -89,7 +89,7 @@ Key Features of MongoDB</p>
 </tr>
 
 <tr>
-<td>2.1.1</td><td> Insert data </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/create_collections/add_constraints.js">insertOne(), insertMany()</a></td>
+<td>2.1.1</td><td> Insert data </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/tree/main/managing_collections">insertOne(), insertMany()</a></td>
 </tr>
 
 
