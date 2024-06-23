@@ -4,10 +4,9 @@
 <table>
 <tr>
     <td>
-    <img src="./public/readme_images/mongodb_image.png" width="300" height="200"><br>
-
+ <!-- <img src="./public/readme_images/mongodb_image.png" width="300" height="200"> -->
 </td>
-    <td><img src="./public/readme_images/mongo_db_img_2.jpg" width="300" height="200"><br> </td>
+    <td><img src="./public/readme_images/mongo_db_img_2.jpg" width="300" height="600"><br> </td>
 </tr>
 </table>
 <sub>an open source NoSQL database management program.</sub>
