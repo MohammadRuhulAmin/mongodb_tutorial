@@ -98,10 +98,15 @@ $set,$unset,$inc,$push,$pull</a></td>
 
 
 
+## Resources
 
-## Resources:
+### Blogs
 
-- <https://www.mongodb.com/docs/manual/tutorial/query-documents/>
-- <https://www.knowi.com/blog/the-best-introduction-to-mongodb-query-language-mql/>
-- <https://roadmap.sh/mongodb>
-- <https://en.wikipedia.org/wiki/MongoDB>
+- [MongoDB Documentation: Query Documents](https://www.mongodb.com/docs/manual/tutorial/query-documents/)
+- [Knowi Blog: The Best Introduction to MongoDB Query Language (MQL)](https://www.knowi.com/blog/the-best-introduction-to-mongodb-query-language-mql/)
+- [Roadmap.sh: MongoDB](https://roadmap.sh/mongodb)
+- [Wikipedia: MongoDB](https://en.wikipedia.org/wiki/MongoDB)
+
+### YouTube
+
+- [MongoDB Tutorial Playlist](https://www.youtube.com/watch?v=kSJLGc9ij7c&list=PLNF7sp688eT_iPD_fAso0y5IonLthsasS)
