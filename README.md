@@ -97,21 +97,21 @@ Key Features of MongoDB</p>
 </tr>
 
 <tr>
-<td>2.1.1</td><td> Insert data </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/tree/main/managing_collections">insertOne(), insertMany()</a></td>
+<td>2.1.1</td><td> Insert data </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/tree/main/managing_record">insertOne(), insertMany()</a></td>
 </tr>
 
 <tr>
 <td>2.2.1</td>
 <td>Update a Document</td>
 <td>
-<a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/update_collection/update_one.js">updateOne()
+<a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/update_record/update_one.js">updateOne()
 </td>
 </tr>
 
 <tr>
 <td>2.2.2</td>
 <td>Update Operators</td>
-<td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/update_collection/update_operators.js">
+<td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/update_record/update_operators.js">
 $set,$unset,$inc,$push,$pull</a></td>
 </tr>
 
