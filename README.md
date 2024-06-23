@@ -106,7 +106,7 @@ Key Features of MongoDB</p>
 </div>
 
 <div>
-<b>Resources: </b>
+<h3>Resources: </h3>
 <ul>
 <li><span>https://www.mongodb.com/docs/manual/tutorial/query-documents/</span></li>
 <li><span>https://www.knowi.com/blog/the-best-introduction-to-mongodb-query-language-mql/</span>
