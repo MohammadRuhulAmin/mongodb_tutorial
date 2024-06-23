@@ -1,11 +1,13 @@
 ![MongoDB](./public/readme_images/mongodb_image.png)  
 *an open source NoSQL database management program.*
 
-## What is MongoDB?
+## <span style="color: green;">What is MongoDB?</span>
 
 MongoDB is an open-source, document-based, and cross-platform NoSQL database that offers high performance, high availability, and easy scalability. It differs from traditional relational databases by utilizing a flexible, schema-less data model built on top of BSON (Binary JSON), allowing for non-structured data to be easily stored and queried.
 
-**Key Features of MongoDB**
+### <span style="color: green;">Key Features of MongoDB</span>
+
+
 
 - **Document-oriented:** MongoDB stores data in JSON-like documents (BSON format), meaning that the data model is very flexible and can adapt to real-world object representations easily.
 - **Scalability:** MongoDB offers automatic scaling, as it can be scaled horizontally by sharding (partitioning data across multiple servers) and vertically by adding storage capacity.
@@ -14,7 +16,7 @@ MongoDB is an open-source, document-based, and cross-platform NoSQL database tha
 - **Aggregation:** MongoDB features a powerful aggregation framework to perform complex data operations, such as transformations, filtering, and sorting.
 - **Support for ad hoc queries:** MongoDB supports searching by field, range, and regular expression queries.
 
-## When to use MongoDB?
+## <span style="color: green;">When to use MongoDB?</span>
 
 MongoDB is a suitable choice for various applications, including:
 
@@ -26,7 +28,7 @@ MongoDB is a suitable choice for various applications, including:
 
 **In conclusion, MongoDB is a powerful and versatile NoSQL database that can efficiently handle unstructured and semi-structured data, making it an excellent choice for various applications and industries.**
 
-## MongoDB Terminology
+## <span style="color:green">MongoDB Terminology</span>
 
 This section of the guide will introduce you to the basic terminology used while working with MongoDB. Understanding these terms will help you to grasp the fundamentals of MongoDB and make it easier for you to follow along with the rest of the guide.
 
@@ -45,10 +47,10 @@ This section of the guide will introduce you to the basic terminology used while
 | **Replica Set**        | A replica set in MongoDB is a group of MongoDB instances that maintain the same data set. It provides redundancy, high availability, and automatic failover in case the primary node becomes unreachable. |
 | **Sharding**           | Sharding is a method of distributing data across multiple machines. It is used in MongoDB to horizontally scale the database by partitioning the dataset into smaller, more manageable chunks called shards. |
 
-## Study Topics
+## <span style="color: green">Study Topics</span>
 
 <div>
-<h2>Study Topics</h2>
+
 <table>
 <thead>
 <tr><th>#SL</th>
@@ -98,7 +100,7 @@ $set,$unset,$inc,$push,$pull</a></td>
 
 
 
-## Resources
+## <span style="color:green">Resources</span>
 
 ### Blogs
 
