@@ -96,7 +96,7 @@ This section of the guide will introduce you to the basic terminology used while
 <tr>
 <td> 05 </td>
 <td>Document</td>
-<td></td>
+<td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/document/documents.md">BSON format</a></td>
 </tr>
 
 <tr>
