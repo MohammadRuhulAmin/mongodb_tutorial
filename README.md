@@ -100,8 +100,8 @@ This section of the guide will introduce you to the basic terminology used while
 </tr>
 
 <tr>
-<td> </td>
-<td></td>
+<td> 06 </td>
+<td>Insert Document </td>
 <td></td>
 </tr>
 <tr>

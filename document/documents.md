@@ -61,7 +61,6 @@ To specify or access a field of an embedded document with dot notation, concaten
 ```
 
 
-
 ### MongoDB Field Naming Restrictions and Document Size
 
 #### Field Naming Restrictions
