@@ -3,7 +3,7 @@
 ```javascript
     db.collection_name.insertOne({
         name:"Ruhul",
-        email:"ruhul@ba-systems.com",
+        email:"ruhul@xy-systems.com",
         contact:"123"
     });
 

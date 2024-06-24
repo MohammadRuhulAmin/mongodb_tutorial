@@ -102,7 +102,7 @@ This section of the guide will introduce you to the basic terminology used while
 <tr>
 <td> 06 </td>
 <td>Insert Document </td>
-<td></td>
+<td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/Insert_record/insert_document.md"> Single Record, Multi Record Insertion</a></td>
 </tr>
 <tr>
 <td> </td>
