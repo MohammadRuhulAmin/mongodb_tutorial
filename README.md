@@ -76,16 +76,16 @@ This section of the guide will introduce you to the basic terminology used while
 <tr>
 <td>02 </td>
 <td>MongoDB Terminology </td>
-<td></td>
+<td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/Terminology/mongo_terms.md"> Basic Terminology </a> </td>
 </tr>
 
 <tr>
-<td> 02 </td>
+<td> 03 </td>
 <td>Create Collection</td>
 <td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/create_collections/collection_creation.md"> Create Collection (Implicite, Explicite, Capped Collection ) </a></td>
 </tr>
 <tr>
-<td> 03 </td>
+<td> 04 </td>
 <td> Collection Type </td>
 <td><a href ="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/collection/collection_type/different_collections.md">Capped vs NonCapped collection</a></td>
 </tr>
