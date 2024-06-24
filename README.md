@@ -71,56 +71,35 @@ This section of the guide will introduce you to the basic terminology used while
 | **Replica Set**        | A replica set in MongoDB is a group of MongoDB instances that maintain the same data set. It provides redundancy, high availability, and automatic failover in case the primary node becomes unreachable. |
 | **Sharding**           | Sharding is a method of distributing data across multiple machines. It is used in MongoDB to horizontally scale the database by partitioning the dataset into smaller, more manageable chunks called shards. |
 
-## <span style="color: green">Study Topics</span>
+## <span style="color: green">Topics</span>
+#### `information`
+<div>
+<table>
+<tr>
+<td> #SL</td>
+<td>Topic</td>
+<td> Resource </td>
+</tr>
+<tr>
+<td> 01 </td>
+<td>Introduction</td>
+<td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/tree/main">Introduction with MongoDB</a></td>
+</tr>
 
+<tr>
+<td> 02 </td>
+<td>Create Collection</td>
+<td></td>
+</tr>
+<tr>
+<td> </td>
+<td></td>
+<td></td>
+</tr>
+</table>
 <div>
 
-<table>
-<thead>
-<tr><th>#SL</th>
-<th>Topic Name</th>
-<th>Methods </th>
-</tr>
-<tr>
-<td>1.0</td><td>Introduction with MongoDB</td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/tree/main">Introductio with MongoDB</a></td>
-</tr>
-<tr>
-<td>2.0</td><td>Create a Collection </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/tree/main/create_collections">implicit, explicit collection</a></td>
-</tr>
 
-<tr>
-<td>2.1</td><td>Create a Collection with necessary constraints </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/create_collections/add_constraints.js">validator(), $jsonSchema()</a></td>
-</tr>
-
-<tr>
-<td>2.1.1</td><td> Insert data </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/tree/main/managing_record">insertOne(), insertMany()</a></td>
-</tr>
-
-<tr>
-<td>2.2.1</td>
-<td>Update a Document</td>
-<td>
-<a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/update_record/update_one.js">updateOne()
-</td>
-</tr>
-
-<tr>
-<td>2.2.2</td>
-<td>Update Operators</td>
-<td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/update_record/update_operators.js">
-$set,$unset,$inc,$push,$pull</a></td>
-</tr>
-
-
-<tr>
-<td>2.3</td><td>Delete a Collection </td><td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/drop_collections/dc.js"> collection_name.drop()</a></td>
-</tr>
-
-
-
-</thead>
-</table>
-</div>
 
 ### Tech Giant Companies Using MongoDB
 
