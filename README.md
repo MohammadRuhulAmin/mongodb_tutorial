@@ -16,7 +16,7 @@ MongoDB is an open-source, document-based, and cross-platform NoSQL database tha
 - **Aggregation:** MongoDB features a powerful aggregation framework to perform complex data operations, such as transformations, filtering, and sorting.
 - **Support for ad hoc queries:** MongoDB supports searching by field, range, and regular expression queries.
 
-## MongoDB vs MySQL
+### MongoDB vs MySQL
 
 | MongoDB |  | MySQL |
 | --- | --- | --- |
@@ -110,17 +110,26 @@ $set,$unset,$inc,$push,$pull</a></td>
 </table>
 </div>
 
+## 5 Major Disadvantages of MongoDB
 
+- **Memory Usage**: MongoDB can consume a significant amount of memory, especially with larger data sets, due to its in-memory processing requirements.
+
+- **Lack of Transactions**: MongoDB traditionally lacked full ACID transactions, although recent versions have introduced multi-document transactions, they are still not as robust as those in traditional RDBMS like MySQL.
+
+- **Complexity in Querying**: MongoDB's query language (MQL) is powerful but can be more complex compared to SQL, especially for operations that require joins or complex aggregations.
+
+- **Not Suitable for Complex Transactions**: While MongoDB supports multi-document transactions now, it may not be suitable for applications with complex transactional requirements typical in financial or banking systems.
+- **Data Size and Storage**: MongoDB can lead to larger database sizes compared to relational databases due to denormalization and storing redundant data for performance reasons, which can impact storage costs and performance.
 
 ## <span style="color:green">Resources</span>
 
-### Blogs
+#### Blogs
 
 - [MongoDB Documentation: Query Documents](https://www.mongodb.com/docs/manual/tutorial/query-documents/)
 - [Knowi Blog: The Best Introduction to MongoDB Query Language (MQL)](https://www.knowi.com/blog/the-best-introduction-to-mongodb-query-language-mql/)
 - [Roadmap.sh: MongoDB](https://roadmap.sh/mongodb)
 - [Wikipedia: MongoDB](https://en.wikipedia.org/wiki/MongoDB)
 
-### YouTube
+#### YouTube
 
 - [MongoDB Tutorial Playlist](https://www.youtube.com/watch?v=kSJLGc9ij7c&list=PLNF7sp688eT_iPD_fAso0y5IonLthsasS)
