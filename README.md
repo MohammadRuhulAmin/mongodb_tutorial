@@ -94,10 +94,22 @@ This section of the guide will introduce you to the basic terminology used while
 </tr>
 
 <tr>
+<td> 05 </td>
+<td>Document</td>
+<td></td>
+</tr>
+
+<tr>
 <td> </td>
 <td></td>
 <td></td>
 </tr>
+<tr>
+<td> </td>
+<td></td>
+<td></td>
+</tr>
+
 </table>
 <div>
 
