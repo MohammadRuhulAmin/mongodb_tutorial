@@ -32,41 +32,40 @@ To create a collection with specific options:
 **To check a collection is capped or not:**
 
 ```javascript
-db.nonCappedCollection_name.isCapped() // Return false
-db.cappedCollection_name.isCapped() // Return true
+  db.nonCappedCollection_name.isCapped() // Return false
+  db.cappedCollection_name.isCapped() // Return true
 ```
 
 
-```
 
 ### Add constrains to a collection :
 
 ```javascript
-db.createCollection("users", {
-    validator: {
-      $jsonSchema: {
-        bsonType: "object",
-        required: ["name", "age", "email"],
-        properties: {
-          name: {
-            bsonType: "string",
-            description: "must be a string and is required"
-          },
-          age: {
-            bsonType: "int",
-            minimum: 0,
-            maximum: 120,
-            description: "must be an integer between 0 and 120 and is required"
-          },
-          email: {
-            bsonType: "string",
-            pattern: "^.+@.+$",
-            description: "must be a valid email address and is required"
+  db.createCollection("users", {
+      validator: {
+        $jsonSchema: {
+          bsonType: "object",
+          required: ["name", "age", "email"],
+          properties: {
+            name: {
+              bsonType: "string",
+              description: "must be a string and is required"
+            },
+            age: {
+              bsonType: "int",
+              minimum: 0,
+              maximum: 120,
+              description: "must be an integer between 0 and 120 and is required"
+            },
+            email: {
+              bsonType: "string",
+              pattern: "^.+@.+$",
+              description: "must be a valid email address and is required"
+            }
           }
         }
       }
-    }
-  });
+    });
 
 ```
 

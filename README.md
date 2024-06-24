@@ -63,7 +63,7 @@ This section of the guide will introduce you to the basic terminology used while
 <div>
 <table style="width:100%">
 <tr>
-<td> #SL</td>
+<td> Page No.</td>
 <td>Topic</td>
 <td> Resource </td>
 </tr>

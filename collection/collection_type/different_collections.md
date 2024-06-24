@@ -25,7 +25,7 @@
     db.cappedCollection_name.isCapped() // Return true
     ```
 
-    **To convert a collection to capped collection use: convertToCapped()**
+    **To convert a collection to capped collection by using: convertToCapped()**
 
     ```javascript
         db.runCommand( {
