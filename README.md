@@ -19,7 +19,7 @@ MongoDB is an open-source, document-based, and cross-platform NoSQL database tha
 ### MongoDB vs MySQL
 
 <!-- ![MongoDB](./public/readme_images/cat-head-smash.gif)   -->
-<img src="./public/readme_images/cat-head-smash.gif" alt="MongoDB" width="100" />
+<img src="./public/readme_images/cat-head-smash.gif" alt="MongoDB" width="300" />
 
 |  | MongoDB | MySQL |
 | --- | --- | --- |
