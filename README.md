@@ -92,6 +92,12 @@ This section of the guide will introduce you to the basic terminology used while
 <td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/create_collections/collection_creation.md"> Create Collection (Implicite, Explicite, Capped Collection ) </a></td>
 </tr>
 <tr>
+<td> 03 </td>
+<td> Collection Type </td>
+<td></td>
+</tr>
+
+<tr>
 <td> </td>
 <td></td>
 <td></td>
