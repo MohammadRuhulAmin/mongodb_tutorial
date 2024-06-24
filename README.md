@@ -18,9 +18,10 @@ MongoDB is an open-source, document-based, and cross-platform NoSQL database tha
 
 ### MongoDB vs MySQL
 
-![MongoDB](./public/readme_images/cat-head-smash.gif)  
+<!-- ![MongoDB](./public/readme_images/cat-head-smash.gif)   -->
+<img src="./public/readme_images/cat-head-smash.gif" alt="MongoDB" width="100" />
 
-| MongoDB |  | MySQL |
+|  | MongoDB | MySQL |
 | --- | --- | --- |
 | **Data model** | MongoDB stores data in JSON documents, then organizes them into collections. | MySQL stores data in columns and rows. Data storage is tabular and relational. |
 | **Scalability** | MongoDB uses replication and sharding to scale horizontally. | MySQL uses vertical scaling and read replicas to improve performance at scale. |
