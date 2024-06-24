@@ -72,9 +72,9 @@ This section of the guide will introduce you to the basic terminology used while
 | **Sharding**           | Sharding is a method of distributing data across multiple machines. It is used in MongoDB to horizontally scale the database by partitioning the dataset into smaller, more manageable chunks called shards. |
 
 ## <span style="color: green">Topics</span>
-#### `information`
+
 <div>
-<table>
+<table style="width:100%">
 <tr>
 <td> #SL</td>
 <td>Topic</td>
