@@ -89,7 +89,7 @@ This section of the guide will introduce you to the basic terminology used while
 <tr>
 <td> 02 </td>
 <td>Create Collection</td>
-<td></td>
+<td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/create_collections/collection_creation.md"> Create Collection (Implicite, Explicite, Capped Collection ) </a></td>
 </tr>
 <tr>
 <td> </td>
