@@ -1,13 +1,22 @@
 ## MongoDB Collection Creation
 
-### Creating a Collection
+###  Implicite Creation:
 
 To create a collection in MongoDB, use the following command:
 
 ```javascript
-/*
-    No table constraints will be added on the collection
-*/
-db.createCollection('users');
+    db.createCollection('users');
 
+```
+
+### Explicite Creation: 
+
+To create a collection with specific options:
+
+```javascript
+    db.createCollection('users', { 
+        capped: true, 
+        size: 100000,
+        max: 5000 
+    });
 ```

@@ -16,6 +16,18 @@ MongoDB is an open-source, document-based, and cross-platform NoSQL database tha
 - **Aggregation:** MongoDB features a powerful aggregation framework to perform complex data operations, such as transformations, filtering, and sorting.
 - **Support for ad hoc queries:** MongoDB supports searching by field, range, and regular expression queries.
 
+## MongoDB vs MySQL
+
+| MongoDB |  | MySQL |
+| --- | --- | --- |
+| **Data model** | MongoDB stores data in JSON documents, then organizes them into collections. | MySQL stores data in columns and rows. Data storage is tabular and relational. |
+| **Scalability** | MongoDB uses replication and sharding to scale horizontally. | MySQL uses vertical scaling and read replicas to improve performance at scale. |
+| **Query language** | MongoDB uses MongoDB Query Language. | MySQL uses SQL. |
+| **Performance** | MongoDB excels at inserting or updating a large number of records. | MySQL is faster when selecting a large number of records. |
+| **Flexibility** | MongoDB does not have a schema, providing more flexibility and allowing it to work with unstructured, semi-structured, and structured data. | MySQL has a rigid schema that works well with structured data. |
+| **Security** | MongoDB uses Kerberos, X.509, and LDAP certificates to authenticate users. | MySQL uses built-in authentication methods. |
+
+
 ## <span style="color: green;">When to use MongoDB?</span>
 
 MongoDB is a suitable choice for various applications, including:
