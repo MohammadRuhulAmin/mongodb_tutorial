@@ -94,7 +94,7 @@ This section of the guide will introduce you to the basic terminology used while
 <tr>
 <td> 03 </td>
 <td> Collection Type </td>
-<td></td>
+<td><a href ="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/collection/collection_type/different_collections.md">Capped vs NonCapped collection</a></td>
 </tr>
 
 <tr>
