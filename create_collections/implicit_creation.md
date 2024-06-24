@@ -29,9 +29,23 @@ _The most common use case for a capped collection is to store log information. W
 
 Capped collections are fixed-size collections that insert and retrieve documents based on insertion order. Capped collections work similarly to circular buffers: once a collection fills its allocated space, it makes room for new documents by overwriting the oldest documents in the collection.
 
+**To check a collection is capped or not:**
 
+```javascript
+db.nonCappedCollection_name.isCapped() // Return false
+db.cappedCollection_name.isCapped() // Return true
+```
 
-### Add constrains to a collection
+**To convert a collection to capped collection use: convertToCapped()**
+
+```javascript
+db.runCommand( {
+   convertToCapped: "non_capped_collection_name",
+   size: 100000
+});
+```
+
+### Add constrains to a collection :
 
 ```javascript
 db.createCollection("users", {
@@ -62,7 +76,7 @@ db.createCollection("users", {
 
 ```
 
-## MongoDB Collection Creation with Validation Rules
+### Validation Rules Explanation
 
 ### `db.createCollection`
 This command creates a new collection in MongoDB. In this example, the collection name is "users".
