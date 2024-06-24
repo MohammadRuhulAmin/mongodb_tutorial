@@ -122,6 +122,29 @@ $set,$unset,$inc,$push,$pull</a></td>
 </table>
 </div>
 
+### Tech Giant Companies Using MongoDB
+
+1. **Google**: Uses MongoDB for various internal projects and services.
+   
+2. **Adobe**: Utilizes MongoDB to power some of its Creative Cloud services.
+
+3. **Uber**: MongoDB is used for managing and analyzing real-time data from ride bookings and interactions.
+
+4. **Square**: Uses MongoDB for various aspects of its payment processing and financial data management.
+
+5. **Cisco**: Incorporates MongoDB for data storage and management in networking solutions and services.
+
+6. **Ebay**: MongoDB is used in certain parts of Ebay's infrastructure for handling product catalog and recommendation systems.
+
+7. **Verizon**: Uses MongoDB to support various applications and services in telecommunications.
+
+8. **Twitter**: MongoDB is used by Twitter for storing and analyzing tweets and related data.
+
+9. **Expedia**: MongoDB is used for managing and analyzing customer data and booking information.
+
+10. **Cerner**: Uses MongoDB for healthcare data management and analysis.
+
+
 ## 5 Major Disadvantages of MongoDB
 
 - **Memory Usage**: MongoDB can consume a significant amount of memory, especially with larger data sets, due to its in-memory processing requirements.
