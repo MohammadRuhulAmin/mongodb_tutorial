@@ -1,6 +1,10 @@
+
 <div class="image-container">
         <img src="./public/readme_images/mongodb_image.png" alt="MongoDB">
-        <img src="./public/readme_images/meow-cat.gif" height="115" align="right" alt="Meow Cat">
+        <img src="./public/readme_images/meow-cat.gif" height="115" align="right" alt="Meow Cat" 
+        style ="height: 115px;border: 2px solid #000; border-radius: 15px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"
+        >
 </div>
 *an open source NoSQL database management program.*
 
@@ -57,12 +61,6 @@ MongoDB is a suitable choice for various applications, including:
 - **Mobile applications:** MongoDB provides a flexible data model, which is an essential requirement for the dynamic nature and varying data types of mobile applications.
 
 **In conclusion, MongoDB is a powerful and versatile NoSQL database that can efficiently handle unstructured and semi-structured data, making it an excellent choice for various applications and industries.**
-
-## <span style="color:green">MongoDB Terminology</span>
-
-This section of the guide will introduce you to the basic terminology used while working with MongoDB. Understanding these terms will help you to grasp the fundamentals of MongoDB and make it easier for you to follow along with the rest of the guide.
-
-
 
 ## <span style="color: green">Topics</span>
 

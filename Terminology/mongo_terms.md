@@ -1,4 +1,6 @@
-### MongoDB Terminology
+## <span style="color:green">MongoDB Terminology</span>
+
+This section of the guide will introduce you to the basic terminology used while working with MongoDB. Understanding these terms will help you to grasp the fundamentals of MongoDB and make it easier for you to follow along with the rest of the guide.
 
 | **Term**               | **Description**                                                                                                                                                                   |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
