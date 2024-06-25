@@ -1,12 +1,22 @@
+<!-- <div style="text-align:center;">
+<pre style="font-family: monospace; font-size: 25px;">
+    MeWOW Mongo!
+</pre>
+</div> -->
 
-<div class="image-container">
+<div>
         <img src="./public/readme_images/mongodb_image.png" alt="MongoDB">
-        <img src="./public/readme_images/meow-cat.gif" height="115" align="right" alt="Meow Cat" 
+        <img src="./public/readme_images/meow-cat.gif" height="115"  alt="Meow Cat" 
         style ="height: 115px;border: 2px solid #000; border-radius: 15px; 
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"
         >
+        
 </div>
-*an open source NoSQL database management program.*
+
+**`MeaooowNgo `** :  *an open source NoSQL database management program.*
+
+
+                                                  
 
 ## <span style="color: green;">What is MongoDB?</span>
 
@@ -128,39 +138,7 @@ MongoDB is a suitable choice for various applications, including:
 
 
 
-### Tech Giant Companies Using MongoDB
 
-1. **Google**: Uses MongoDB for various internal projects and services.
-   
-2. **Adobe**: Utilizes MongoDB to power some of its Creative Cloud services.
-
-3. **Uber**: MongoDB is used for managing and analyzing real-time data from ride bookings and interactions.
-
-4. **Square**: Uses MongoDB for various aspects of its payment processing and financial data management.
-
-5. **Cisco**: Incorporates MongoDB for data storage and management in networking solutions and services.
-
-6. **Ebay**: MongoDB is used in certain parts of Ebay's infrastructure for handling product catalog and recommendation systems.
-
-7. **Verizon**: Uses MongoDB to support various applications and services in telecommunications.
-
-8. **Twitter**: MongoDB is used by Twitter for storing and analyzing tweets and related data.
-
-9. **Expedia**: MongoDB is used for managing and analyzing customer data and booking information.
-
-10. **Cerner**: Uses MongoDB for healthcare data management and analysis.
-
-
-## 5 Major Disadvantages of MongoDB
-
-- **Memory Usage**: MongoDB can consume a significant amount of memory, especially with larger data sets, due to its in-memory processing requirements.
-
-- **Lack of Transactions**: MongoDB traditionally lacked full ACID transactions, although recent versions have introduced multi-document transactions, they are still not as robust as those in traditional RDBMS like MySQL.
-
-- **Complexity in Querying**: MongoDB's query language (MQL) is powerful but can be more complex compared to SQL, especially for operations that require joins or complex aggregations.
-
-- **Not Suitable for Complex Transactions**: While MongoDB supports multi-document transactions now, it may not be suitable for applications with complex transactional requirements typical in financial or banking systems.
-- **Data Size and Storage**: MongoDB can lead to larger database sizes compared to relational databases due to denormalization and storing redundant data for performance reasons, which can impact storage costs and performance.
 
 ## <span style="color:green">Resources</span>
 
