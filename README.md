@@ -105,6 +105,7 @@ This section of the guide will introduce you to the basic terminology used while
 <td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/crud/Insert_record/insert_document.md"> Single Record, Multi Record Insertion</a></td>
 </tr>
 <tr>
+<td> 07 </td>
 <td> Delete Document </td>
 <td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/crud/delete_record/delete_document.md">DeleteOne(), DeleteMany() </a> </td>
 <td></td>
