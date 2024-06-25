@@ -4,7 +4,7 @@
 </pre>
 </div> -->
 
-<div style="text-align:center;">
+<div style="text-align:center">
         <img src="./public/readme_images/mongodb_image.png" alt="MongoDB">
         <img src="./public/readme_images/meow-cat.gif" height="115"  alt="Meow Cat" 
         style ="height: 115px;border: 2px solid #000; border-radius: 15px; 
@@ -56,7 +56,7 @@ MongoDB is a suitable choice for various applications, including:
 - **Internet of Things (IoT) applications:** MongoDB can capture and store data from a large number of devices and sensors, proving beneficial in IoT scenarios.
 - **Mobile applications:** MongoDB provides a flexible data model, which is an essential requirement for the dynamic nature and varying data types of mobile applications.
 
-**In conclusion, MongoDB is a powerful and versatile NoSQL database that can efficiently handle unstructured and semi-structured data, making it an excellent choice for various applications and industries.**
+*MongoDB is a powerful and versatile NoSQL database that can efficiently handle unstructured and semi-structured data, making it an excellent choice for various applications and industries.*
 
 ## <span style="color: green">Topics</span>
 
@@ -111,7 +111,7 @@ MongoDB is a suitable choice for various applications, including:
 <tr>
 <td>07</td>
 <td>Update Document</td>
-<td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/crud/update_record/update_document.md"> UpdateOne(), UpdateMany() and Operators </a> </td>
+<td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/crud/update_record/update_document.md"> UpdateOne(), UpdateMany() and Conditional Operators </a> </td>
 </tr>
 
 <tr>
@@ -122,7 +122,7 @@ MongoDB is a suitable choice for various applications, including:
 <tr>
 <td>09</td>
 <td>Select Document</td>
-<td><a href = "https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/select_document/select_record.md"> Select Methods and $operators</a> </td>
+<td><a href = "https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/select_document/select_record.md"> Select Methods and conditional $operators</a> </td>
 </tr>
 
 <tr>
