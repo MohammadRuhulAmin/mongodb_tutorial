@@ -3,7 +3,7 @@
 
 Projection operators in MongoDB control which fields should be shown in the results. 
 
-### `$`, `$elemMatch`, `$slice`, `$meta`
+### `$`, `$elemMatch`, `$slice`, `$meta` , `$include`, `$exclude`
 
 - `$` The (positional) $ operator limits the contents of an <array> to return the first element that matches the query condition on the array.
 
@@ -184,3 +184,46 @@ Example2:
     )
 
 ```
+
+- `$include` : This projection operator is used in queries to specify the fields that should be returned in the result documents. By using $include, you can choose to retrieve only fields of interest, making your query more efficient by minimizing the amount of data returned.
+
+```javascript
+    db.users.find({},{title: 1, author: 1, _id: 0});
+
+    // result:
+
+    [
+        {
+            title: 'The Catcher in the Rye',
+            author: 'J.D. Salinger',
+        },
+        {
+            title: 'To Kill a Mockingbird',
+            author: 'Harper Lee',
+        },
+        {
+            title: 'Of Mice and Men',
+            author: 'John Steinbeck',
+        },
+    ];
+
+```
+
+
+- `$exclude`: Now, let’s say we want to fetch all the students but exclude the age field from the result
+
+
+    ```javascript
+        db.persons.aggregate([
+        {
+            $project: {
+            age: 0,
+            name: 0
+            },
+        },
+        ]);
+    // age and name will not be displayed
+    ```
+
+
+    **Note: You cannot use the exclude operator (0) for a field that is explicitly included with the include operator (1) in the same document, except for the _id field. The _id field is the only field that can have both exclude (0) and include (1) options in the same document.**
