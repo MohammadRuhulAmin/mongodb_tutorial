@@ -114,7 +114,7 @@ This section of the guide will introduce you to the basic terminology used while
 <tr>
 <td>07</td>
 <td>Update Document</td>
-<td><a href=""></a> </td>
+<td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/crud/update_record/update_document.md"> UpdateOne(), UpdateMany() and Operators </a> </td>
 </tr>
 
 </table>
