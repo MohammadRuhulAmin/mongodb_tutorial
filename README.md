@@ -119,6 +119,25 @@ MongoDB is a suitable choice for various applications, including:
 <td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/crud/replace_record/replace.md">replaceOne()</a></td>
 </tr>
 
+<tr>
+<td>09</td>
+<td>Select Document</td>
+<td><a href = "https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/select_document/select_record.md"> Select Methods and $operators</a> </td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
 </table>
 <div>
 
