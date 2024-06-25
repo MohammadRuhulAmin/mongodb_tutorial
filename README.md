@@ -107,7 +107,7 @@ This section of the guide will introduce you to the basic terminology used while
 <tr>
 <td> 07 </td>
 <td> Delete Document </td>
-<td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/crud/delete_record/delete_document.md">DeleteOne(), DeleteMany() </a> </td>
+<td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/crud/delete_record/delete_document.md">DeleteOne(), DeleteMany(),findOneAndDelete(),findAndModify() </a> </td>
 <td></td>
 </tr>
 
