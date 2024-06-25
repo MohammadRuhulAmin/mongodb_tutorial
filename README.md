@@ -148,7 +148,7 @@ MongoDB is a suitable choice for various applications, including:
 ## <span style="color:green">Resources</span>
 
 #### Blogs
-
+- [w3 Resource](https://www.w3resource.com/mongodb/mongodb-slice-operators.php)
 - [MongoDB Documentation: Query Documents](https://www.mongodb.com/docs/manual/tutorial/query-documents/)
 - [Knowi Blog: The Best Introduction to MongoDB Query Language (MQL)](https://www.knowi.com/blog/the-best-introduction-to-mongodb-query-language-mql/)
 - [Roadmap.sh: MongoDB](https://roadmap.sh/mongodb)
