@@ -1,4 +1,7 @@
-![MongoDB](./public/readme_images/mongodb_image.png)  
+<div class="image-container">
+        <img src="./public/readme_images/mongodb_image.png" alt="MongoDB">
+        <img src="./public/readme_images/meow-cat.gif" height="115" align="right" alt="Meow Cat">
+</div>
 *an open source NoSQL database management program.*
 
 ## <span style="color: green;">What is MongoDB?</span>
