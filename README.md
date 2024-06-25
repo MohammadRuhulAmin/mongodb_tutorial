@@ -4,7 +4,7 @@
 </pre>
 </div> -->
 
-<div>
+<div style="text-align:center;">
         <img src="./public/readme_images/mongodb_image.png" alt="MongoDB">
         <img src="./public/readme_images/meow-cat.gif" height="115"  alt="Meow Cat" 
         style ="height: 115px;border: 2px solid #000; border-radius: 15px; 
@@ -13,9 +13,8 @@
         
 </div>
 
-**`MeaooowNgo `** :  *an open source NoSQL database management program.*
 
-
+<p style="text-align:center"><b>MeaooowNgo</b> : <i>an open source NoSQL database management program.</i></p>
                                                   
 
 ## <span style="color: green;">What is MongoDB?</span>
