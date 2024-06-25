@@ -46,19 +46,6 @@ MongoDB is an open-source, document-based, and cross-platform NoSQL database tha
 | **Flexibility** | MongoDB does not have a schema, providing more flexibility and allowing it to work with unstructured, semi-structured, and structured data. | MySQL has a rigid schema that works well with structured data. |
 | **Security** | MongoDB uses Kerberos, X.509, and LDAP certificates to authenticate users. | MySQL uses built-in authentication methods. |
 
-## Major Disadvantages of MySQL
-
-- **Scaling Limitations**: MySQL relies on vertical scaling (adding more resources to a single server), which can limit scalability for handling very large datasets and high traffic compared to NoSQL databases.
-
-- **Schema Rigidity**: MySQL uses a rigid schema structure with predefined tables and columns, making it less flexible than NoSQL databases for applications with evolving data models.
-
-- **Complexity in High Availability**: Achieving high availability in MySQL requires complex configurations like master-slave replication or clustering, leading to higher maintenance and potential points of failure.
-
-- **Performance with Complex Queries**: MySQL can face performance issues with complex queries involving multiple joins or aggregations, particularly with large datasets.
-
-- **Limited Support for Unstructured Data**: MySQL is optimized for structured data stored in tables and can be less efficient for managing and querying unstructured or semi-structured data compared to NoSQL databases.
-
-
 ## <span style="color: green;">When to use MongoDB?</span>
 
 MongoDB is a suitable choice for various applications, including:
