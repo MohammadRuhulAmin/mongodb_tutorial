@@ -1,4 +1,4 @@
-### Conditional operators for Selecting documents :
+### comparison operators for Selecting documents :
 
 - `$eq`  = equal
 - `$gt`  = greater than 
@@ -129,39 +129,5 @@ db.users.find({
 
 ```
 
-**Operator $and:** 
 
-Logically combines multiple conditions. Resulting documents must match ALL conditions.
-**Syntax:**
-
-```javascript
- {
-      $and:[
-          {<condition1>},
-         {<condition2>},
-          .......
-     ]
- }
-```
-
-```javascript
-
-db.getCollection('users')
-.find({
-    name:"Ruhul",
-    email:"ruhulamin.cs.dev@gmail.com"
-});
-
-```
-using $and operator:
-
-```javascript
-db.users.find({
-    $and:[
-        name:"Ruhul",
-        email:"ruhulamin.cs.dev@gmail.com"
-    ]
-
-});
-```
 
