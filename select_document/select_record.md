@@ -116,3 +116,37 @@ similarly,
 ```
 
 
+**Operator $lt**: 
+
+Lets find data age between 23 and 29
+
+```sql
+select * from users where age between 23 and 29 
+and gender = "female";
+```
+
+Here to find the range, we will use both $gt and $lt operator.
+
+```javascript
+db.users.find({
+    age:{$gt:23},
+    age:{$lt:29},
+    gender:"female"
+
+});
+
+```
+
+**Operators $gte and $lte** :
+
+To find data of age  >= 23 and age <= 29
+
+```javascript
+db.users.find({
+    age:{$gte:23},
+    age:{$lte:29}
+
+});
+
+```
+
