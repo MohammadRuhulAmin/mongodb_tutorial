@@ -117,6 +117,11 @@ This section of the guide will introduce you to the basic terminology used while
 <td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/crud/update_record/update_document.md"> UpdateOne(), UpdateMany() and Operators </a> </td>
 </tr>
 
+<tr>
+<td>08</td><td>Replace Document</td>
+<td><a href="https://github.com/MohammadRuhulAmin/mongodb_tutorial/blob/main/crud/replace_record/replace.md">replaceOne()</a></td>
+</tr>
+
 </table>
 <div>
 
