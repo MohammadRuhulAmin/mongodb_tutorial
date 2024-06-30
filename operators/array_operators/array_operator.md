@@ -58,3 +58,30 @@ elements.
         );
     ```
     This query adds “green” to the colors array in the document with _id equal to 1, only if it’s not already present
+
+- ** `$nin` **: used to match one or more elements that are not in the array
+
+    ```javascript
+            [{ 
+                "_id": 1,
+                "name": "Alice",
+                "scores": [ 75, 82, 95 ]
+            },
+            { 
+                "_id": 2,
+                "name": "Bob",
+                "scores": [ 65, 88, 72 ]
+            },
+            { 
+                "_id": 3,
+                "name": "Charlie",
+                "scores": [ 80, 85, 90 ]
+            }]
+
+        db.getCollection('users')
+        .find({
+            marks:{$nin:[85,69]}
+        });
+
+        /** result will be shown id 2 and 3 */
+    ```
