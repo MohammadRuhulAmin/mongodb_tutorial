@@ -59,7 +59,7 @@ elements.
     ```
     This query adds “green” to the colors array in the document with _id equal to 1, only if it’s not already present
 
-- ** `$nin` **: used to match one or more elements that are not in the array
+- **`$nin`**: used to match one or more elements that are not in the array
 
     ```javascript
             [{ 
@@ -85,3 +85,15 @@ elements.
 
         /** result will be shown id 2 and 3 */
     ```
+
+
+- `$type`: operator is an element query operator in MongoDB that allows you to select documents based on data types of their fields. This can be useful when you want to perform operations only on those documents that have specific data types for certain fields.
+
+    ```javascript
+    db.products.find({ price: { $type: 'double' } });
+    or, 
+    db.products.find({ price: { $type: 1 } });
+    ```
+    Keep in mind that the $type operator will only match documents with the exact data type specified for the field. So, if the field has an integer value, using $type with Double will not match those documents.
+
+    In summary, the $type element operator is a useful query tool for selecting documents based on the data types of their fields in MongoDB. By understanding and utilizing the BSON data types and aliases, you can effectively filter documents in your queries based on specific fields’ data types.
