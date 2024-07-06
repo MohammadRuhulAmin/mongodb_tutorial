@@ -20,7 +20,47 @@ db.getCollection('persons').aggregate([
 ])
 
 ```
+## Single-purpose Aggregation
+MongoDB also supports single-purpose aggregation methods, such as db.collection.count(), db.collection.distinct(), and db.collection.group() etc. These methods offer a faster and more convenient way to perform simple aggregations directly.
 
+Example of db.collection.count():
+
+```javascript
+db.collection.count({ status: 'A' });
+db.customers.distinct("country")
+db.orders.distinct("status", { amount: { $gt: 100 } })
+db.products.distinct("category", { in_stock: true })
+db.users.distinct("address.city")
+db.collection.group();
+
+```
+
+MongoDB Aggregation is a powerful feature that helps you extract, manipulate and aggregate data from your collections. By using aggregation pipelines, map-reduce functions or single-purpose aggregation methods, you can perform various data analysis tasks efficiently on your MongoDB dataset.
+
+Lets learn distinct(),count(),group() more
+
+- Aggregation Method : distinct()
+    
+  Syntax:
+  ```javascript
+    db.getCollection('persons')
+    .distinct(<field>,<query>,<options>)
+  ```
+  Example:
+  ```javascript
+    db.getCollection('orders')
+    .distinct("status", // field name
+        {
+            amount:{$gt:100} // query
+        },
+        {
+            collation:{
+                locale:"en", // options
+                strength:2
+            } // - We use a collation option to ensure case-insensitive comparison.
+        }
+    )
+  ```
 
 ## Common Operators
 
