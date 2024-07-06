@@ -97,3 +97,4 @@ elements.
     Keep in mind that the $type operator will only match documents with the exact data type specified for the field. So, if the field has an integer value, using $type with Double will not match those documents.
 
     In summary, the $type element operator is a useful query tool for selecting documents based on the data types of their fields in MongoDB. By understanding and utilizing the BSON data types and aliases, you can effectively filter documents in your queries based on specific fields’ data types.
+
