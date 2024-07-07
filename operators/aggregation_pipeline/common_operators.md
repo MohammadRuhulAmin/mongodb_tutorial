@@ -67,16 +67,39 @@ Lets learn distinct(),count(),group() more
 - **`$match`**, **`$group`**, **`$sort`**, **`$project`**, **`$skip`**, **`$limit`**,
  **`$unwind`**, **`$lookup`**, **`$sum`**
 
+ - **`sort:`** is an aggregation operator in MongoDB that shorts the documents that are passed through the pipeline. It takes one or more fields as parameters and sorts the documents in ascending or desending order based on the values in the specified fields.
+ 
+    ```javascript 
+        $sort:{
+            field1:<sort_order>,
+            field2:<sort_order>,
+            ....
+        }
+    ```
 
+   The `<sort_order>` parameter can be either 1 or -1, which corresponds to ascending or descending order, respectively.
+
+    Example:
+    ```javascript
+    db.students.aggregation([
+        $sort:{
+            age:-1,
+            name:1
+        }
+    ]);
+    ```
+    This will sort the documents by the age field in descending order and then by the name field in ascending order.
+
+    It’s important to note that the $sort operator can be an expensive operation, especially if sorting large datasets. So it’s recommended to use it towards the end of a pipeline to minimize the number of documents being sorted.
 
  - **`$match`**: The $match operator in MongoDB Query Language (MQL) is used to filter documents in a collection based on specified criteria. It is commonly used in the aggregation pipeline to filter documents before passing them to the next stage of the pipeline.
 
 
-```javascript
-db.getCollection('users').aggregate([{
-    $match:{
-        age:{$gt:25},
-        age:{$lt:30}
-    }
-}]);
-```
+    ```javascript
+    db.getCollection('users').aggregate([{
+        $match:{
+            age:{$gt:25},
+            age:{$lt:30}
+        }
+    }]);
+    ```
