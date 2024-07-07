@@ -92,6 +92,76 @@ Lets learn distinct(),count(),group() more
 
     It’s important to note that the $sort operator can be an expensive operation, especially if sorting large datasets. So it’s recommended to use it towards the end of a pipeline to minimize the number of documents being sorted.
 
+
+ - 
+
+ - **`group`**: 
+   
+   Syntax:
+   ```javascript
+    db.getCollection('collection_name')
+    .aggregate([
+        $group:{
+            _id: expression,
+            fieldN:{
+                accumulatorN:expressionN
+            }
+        }
+    ]);
+   ```
+
+   Which country has the highest number of registered users?
+   ```javascript
+    db.getCollection('collection_name')
+    .aggregate([
+        // first pipeline
+        $group:{
+            _id: "$company.location.country",
+            userCount:{
+                $sum:1
+            }
+        },
+        // second pipeline
+        $sort:{
+            userCount:-1
+        },
+        // third pipeline
+        {$limit:2}
+    ])
+   ```
+
+   list the top 5 most common favorite fruits among users.
+   ```javascript
+    db.getCollection('markets')
+    .aggregate([
+        $group:{
+            _id:$fruit_item,
+            totalCount:{
+                $sum:1
+            }
+        },
+        $sort:{
+            totalCount:-1
+        },
+        {limit:5}
+    ]);
+   ```
+
+   Lets get the distinct gender and total number of each gender list from a collection:
+
+    ```javascript
+        db.getCollection('persons').aggregate([
+        {
+            $group: {
+                _id: "$gender",
+                count: { $sum: 1 }
+            }
+        }
+        ]);
+
+    ```
+
+
  - **`$match`**: The $match operator in MongoDB Query Language (MQL) is used to filter documents in a collection based on specified criteria. It is commonly used in the aggregation pipeline to filter documents before passing them to the next stage of the pipeline.
 
 
@@ -100,6 +170,11 @@ Lets learn distinct(),count(),group() more
         $match:{
             age:{$gt:25},
             age:{$lt:30}
+        },
+        {
+            $count:'middle_age'
         }
     }]);
     ```
+
+ - [MongoDB Aggregation Pipeline youtube tutorials](https://www.youtube.com/watch?v=SUZKhBvxW5c&list=PLRAV69dS1uWQ6CZCehxKy0rjkqhQ2Z88t)
