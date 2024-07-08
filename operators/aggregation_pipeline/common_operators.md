@@ -231,12 +231,7 @@ Lets learn distinct(),count(),group() more
     // rest of the columns will be displayed
 
     ```
-
-
-
-
-
-
+    
 
 
  - [Aggregation youtube tutorials](https://www.youtube.com/watch?v=A3jvoE0jGdE&list=PLWkguCWKqN9OwcbdYm4nUIXnA2IoXX0LI)
