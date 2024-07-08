@@ -243,3 +243,62 @@ db.getCollection('orders').aggregate([
 ]);
 
 ```
+
+
+ Inner join in using lookup and match operator:
+
+ ```javascript
+db.getCollection('orders').aggregate([
+    // Stage 1: Lookup product details from the products collection
+    {
+        $lookup: {
+            from: "products",
+            localField: "products.product_id",
+            foreignField: "_id",
+            as: "product_information"
+        }
+    },
+    // Stage 2: Unwind the products array
+    {
+        $unwind: "$products"
+    },
+    // Stage 3: Unwind the product_information array
+    {
+        $unwind: "$product_information"
+    },
+    // Stage 4: Lookup customer details from the customers collection
+    {
+        $lookup: {
+            from: "customers",
+            localField: "customer_id",
+            foreignField: "_id",
+            as: "customer_information"
+        }
+    },
+    // Stage 5: Unwind the customer_information array
+    {
+        $unwind: "$customer_information"
+    },
+    // Stage 6: Filter out documents where the lookup did not produce results (inner join)
+    {
+        $match: {
+            "product_information": { $ne: [] },
+            "customer_information": { $ne: [] }
+        }
+    },
+    // Stage 7: Project the desired fields
+    {
+        $project: {
+            _id: 0,
+            "customer_information._id": 1,
+            "customer_information.name": 1,
+            "customer_information.email": 1,
+            "products.quantity": 1,
+            "product_information._id": 1,
+            "product_information.name": 1,
+            "product_information.price": 1
+        }
+    }
+]).pretty();
+
+ ```
