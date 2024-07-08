@@ -1,6 +1,7 @@
 ## Aggregation continuation:
 
 ### $lookup
+it is an left outer join
 
 lets create 3 collections. products, customers and orders collection.
 
@@ -201,6 +202,43 @@ db.getCollection('orders')
             author_details:1
         }
     }
+
+]);
+
+```
+
+another example:
+
+```javascript
+db.getCollection('orders').aggregate([
+// stage 1
+{
+    $unwind:"$products"
+},
+// stage 2
+{
+    $lookup:{
+        from:"products",
+        localField:"products.product_id",
+        foreignField:"_id",
+        as:"product_information"
+
+    }
+},
+// stage 3
+{
+    $unwind:"$product_information"
+},
+// stage 4
+{
+    $project:{
+        _id:0,
+        customer_id:0,
+        "products.quantity":1,
+        "products._id":0
+        
+    }
+}
 
 ]);
 
