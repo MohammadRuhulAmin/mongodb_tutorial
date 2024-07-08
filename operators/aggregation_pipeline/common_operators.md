@@ -192,20 +192,51 @@ Lets learn distinct(),count(),group() more
     ]);
     ```
 
-    Example:
-
+    Example :1
+    i want to display isActive,gender,eyeColor and age from persions collection.
     ```javascript
     db.getCollection('persons')
     .aggregate([
         {
-            // stage: 1 or pipeline : 1
+            // stage: 1, or pipeline : 1
             $project:{
+                _id:0, // will not be displayed
                 isActive:1,
                 gender:1,
                 eyeColor:1,
                 age:1
             }
         }
-    ])
+    ]);
 
     ```
+
+    Example :2
+    i don't want to display isActive,gender,eyeColor and age from persions collection.
+    ```javascript
+    db.getCollection('persons')
+    .aggregate([
+        {
+            // stage: 1, or pipeline : 1
+            $project:{
+                _id:0, // will not be displayed
+                isActive:0,
+                gender:0,
+                eyeColor:0,
+                age:0
+            }
+        }
+    ]);
+
+    // rest of the columns will be displayed
+
+    ```
+
+
+
+
+
+
+
+
+ - [Aggregation youtube tutorials](https://www.youtube.com/watch?v=A3jvoE0jGdE&list=PLWkguCWKqN9OwcbdYm4nUIXnA2IoXX0LI)
