@@ -177,3 +177,31 @@ db.orders.aggregate([
 ]).pretty();
 
 ```
+
+
+lets execute simple query:
+
+```javascript
+db.getCollection('orders')
+    .aggregate([
+    {
+        $lookup:{
+            from:"customers",
+            localField:"customer_id",
+            foreignField:"_id",
+            as:"author_details"
+        }
+    },
+    {
+        $project:{
+            _id:0,
+            customer_id:1,
+            products:1,
+            order_date:1,
+            author_details:1
+        }
+    }
+
+]);
+
+```

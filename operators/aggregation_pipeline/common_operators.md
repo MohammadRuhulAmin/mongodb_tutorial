@@ -194,6 +194,7 @@ Lets learn distinct(),count(),group() more
 
     Example :1
     i want to display isActive,gender,eyeColor and age from persions collection.
+    
     ```javascript
     db.getCollection('persons')
     .aggregate([
@@ -213,6 +214,7 @@ Lets learn distinct(),count(),group() more
 
     Example :2
     i don't want to display isActive,gender,eyeColor and age from persions collection.
+
     ```javascript
     db.getCollection('persons')
     .aggregate([
@@ -242,14 +244,20 @@ Lets learn distinct(),count(),group() more
     ![alt text](/public/book_images/unwind_stage.png)
 
     Example:
-```javascript
-    db.getCollection('persons')
-        .aggregate([
+    ```javascript
+        db.getCollection('persons')
+            .aggregate([
+                {$unwind:"$tags"},
+                {$project:{name:1,gender:1,tags:1}}
+        ]);
+        
+        db.getCollection('persons')
+            .aggregate([
             {$unwind:"$tags"},
-            {$project:{name:1,gender:1,tags:1}}
-    ]);
+            {$group:{_id:"$tags"}}
+        ]);
 
-```
+    ```
 
 
 
