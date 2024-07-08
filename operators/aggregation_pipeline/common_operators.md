@@ -178,3 +178,34 @@ Lets learn distinct(),count(),group() more
     ```
 
  - [MongoDB Aggregation Pipeline youtube tutorials](https://www.youtube.com/watch?v=SUZKhBvxW5c&list=PLRAV69dS1uWQ6CZCehxKy0rjkqhQ2Z88t)
+
+
+ - **`$project`:** 
+    To get the specific fields for the collection we use `$project` operator.
+
+    Syntax:
+    ```javascript
+    db.getCollection('collection_name')
+    .aggregate([
+        // stage :1 or pipeline 1
+        {$project:{<field_name_1>:1,<field_name_2>:1,<field_name_n>:}}
+    ]);
+    ```
+
+    Example:
+
+    ```javascript
+    db.getCollection('persons')
+    .aggregate([
+        {
+            // stage: 1 or pipeline : 1
+            $project:{
+                isActive:1,
+                gender:1,
+                eyeColor:1,
+                age:1
+            }
+        }
+    ])
+
+    ```
