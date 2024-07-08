@@ -234,4 +234,23 @@ Lets learn distinct(),count(),group() more
     
 
 
- - [Aggregation youtube tutorials](https://www.youtube.com/watch?v=A3jvoE0jGdE&list=PLWkguCWKqN9OwcbdYm4nUIXnA2IoXX0LI)
+
+
+
+- **`$unwind`**: 
+    $unwind stage will convert an array into seperate documents.
+    ![alt text](/public/book_images/unwind_stage.png)
+
+    Example:
+```javascript
+    db.getCollection('persons')
+        .aggregate([
+            {$unwind:"$tags"},
+            {$project:{name:1,gender:1,tags:1}}
+    ]);
+
+```
+
+
+
+- [Aggregation youtube tutorials](https://www.youtube.com/watch?v=A3jvoE0jGdE&list=PLWkguCWKqN9OwcbdYm4nUIXnA2IoXX0LI)
